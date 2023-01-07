@@ -1,20 +1,20 @@
 {
   "development": {
     "username": "postgres",
-    "password": "indra123",
-    "database": "todo_dev",
+    "password": "nithin123",
+    "database": "wd-l10-test",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
     "username": "postgres",
-    "password": "indra123",
-    "database": "todo_db_test",
+    "password": "nithin123",
+    "database": "wd-l10-test",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
-    "use_env_variable":"DATABASE_URL",
-    "dialect":"postgres"
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres"
   }
 }
